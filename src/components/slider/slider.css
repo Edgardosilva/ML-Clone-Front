@@ -1,0 +1,44 @@
+.sliderLayout {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+}
+
+.sliderLayout:hover {
+    cursor: pointer;
+}
+
+.sliderLayout:hover .sliderBtnl {
+    opacity: 100%;
+}
+
+.sliderLayout:hover .sliderBtnr {
+    opacity: 100%;
+}
+
+.sliderBtnl {
+    position: absolute;
+    top: 9rem;
+    left: 0;
+    opacity: 0%;
+    width: 50px;
+    filter: invert(60%);
+}
+
+.sliderBtnl:hover {
+    cursor: pointer;
+}
+
+.sliderBtnr {
+    top: 9rem;
+    right: 0rem;
+    position: absolute;
+    opacity: 0%;
+    width: 3rem;
+    filter: invert(60%);
+}
+
+.sliderBtnr:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+.pagosLayout {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 170px;
+    background-color: #ebebeb;
+}
+
+.divPagos {
+    font-weight: 300;
+    font-size: 18px;
+    width: 1184px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    white-space: nowrap;
+}
+
+.divPagos a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.divPagos div{
+    display: flex;
+}
+
+.divPagos h6 {
+    color: #999;
+}
+
+.divPagos {
+    position: relative;
+}
+
+.divPagos:before {
+    background-color: #3483fa;
+    bottom: 4px;
+    content: "";
+    left: 4px;
+    position: absolute;
+    top: 4px;
+    width: 4px;
+}
+
+.divTexto {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.divTexto p {
+    font-size: 18px;
+}

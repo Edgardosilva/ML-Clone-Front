@@ -1,0 +1,47 @@
+.layoutFooter {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.widthFooter {
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.divInfo img {
+    margin-bottom: 2rem;
+}
+
+.tituloDiv {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: #4b4b4b;
+}
+
+.infoFooter {
+    font-size: 15px;
+    height: 75px;
+    width: 308px;
+    color: #737373;
+    margin-bottom: 1rem;
+    text-align:justify;
+}
+
+.divInfo a {
+    color: #3483fa;
+    font-size: 14px;
+    text-decoration: none;
+}
+

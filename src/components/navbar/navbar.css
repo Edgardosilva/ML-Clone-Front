@@ -1,0 +1,117 @@
+main {
+    background-color: #fff159;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Proxima Nova",-apple-system,Roboto,Arial,sans-serif,sans-serif;
+}
+
+/*/ ESTILOS DEL NAVBAR /*/
+
+.layoutCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1200px;
+    height: 100px;
+}
+
+.rowSuperior {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px 12px;
+}
+
+.rowInferior {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(51,51,51,.6);
+}
+
+.buscador {
+    width: 534px;
+    height: 40px;
+    border: none;
+    padding: 10px 60px 10px 15px;
+}
+
+.logoML {
+    width: 134px;
+    height: 34px;
+}
+
+.logoDplus {
+    width: 340px;
+    height: 39px;
+}
+.divLogoSearch {
+    background-color: white;
+    border: 1px solid lightgray;
+    width: 46px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.searchInput {
+    border: none;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+
+}
+
+.locationDiv {
+   display: flex;
+}
+
+.locationDiv p {
+    font-size: 14px;
+}
+
+.gpsLogo {
+    width: 22px;
+    height: 30px;
+}
+
+.nav1 {
+    font-size: 14px;
+}
+
+.nav2 {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.ul1 {
+    display: flex;
+    width: 588px;
+    height: 28px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul2 {
+    width: 301px;
+    display: flex;
+    justify-content: space-around;
+    color: #333;
+}
+
+.ul2 li:hover {
+    cursor: pointer;
+    color: black;
+    transition: 0.3s ease;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: #333;
+    transition: 0.3s ease;
+}
